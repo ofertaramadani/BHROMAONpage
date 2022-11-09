@@ -61,6 +61,7 @@ h1,h2,h3,h4,h5,h6,input {
     max-width: 1113px;
     width: 100%;
     margin: auto;
+    position: relative;
 }
 
 img {
@@ -207,4 +208,106 @@ img {
 .second-section__secondpic {
     padding-left: 90px;
   
+}
+.third-section {
+    background: #333333;
+    position: relative;
+}
+.vijat
+{
+    position: absolute;
+    top: 30px;
+    left: 435px;
+    background: rgba(0, 0, 0, 0.0001);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: 1;
+}
+.third-section__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 78px;
+    padding-bottom: 96px;
+}
+
+
+.third-section__wrap p {
+    margin-top: 38px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 72%;
+    color: #E8E8E8;  
+    padding-right: 53px;
+    padding-left: 56px;
+    padding-bottom: 16px; 
+    
+}
+
+.fourth-section {
+    background: #000 center/cover url("../assets/rectangle2.png") no-repeat;
+    padding: 230px 0 100px;
+}
+
+.fourth-section__wrap {
+    width: 45%;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    padding-top: 49px;
+    padding-left: 32px;
+    padding-bottom: 50px;
+}
+
+.flex-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+    margin-bottom: 23px;
+}
+.flex-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+.flex-secondtext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    display: flex;
+    align-items: center;
+    color: #E8E8E8;
+    margin-bottom: 46px;
+}
+
+.fifth-section {
+    background: url(../assets/rectangle3.png) 50% / cover no-repeat;
+    padding: 230px 0 100px ;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.fifth-section__wrap {
+    width: 45%;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    padding-top: 49px;
+    padding-left: 32px;
+    padding-bottom: 50px;
+    
 }
