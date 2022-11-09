@@ -169,3 +169,42 @@ img {
 .first-section__scroll {
     padding-bottom: 224px;
 }
+.second-section {
+    background: #000 center/cover url("../assets/rectangle.png") no-repeat;
+}
+.second-section__wrap {
+    padding-top: 118px;
+    display: flex;
+    padding-bottom: 117px;
+}
+.second-section h4 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 72%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.second-section__left {
+    padding-top: 94px;
+}
+
+.second-section h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+    margin-right: 110px;
+    margin-bottom: 43px;
+}
+.secont-section__btn {
+    border: none;
+}
+
+.second-section__firstpic {
+    margin-bottom: 10px;
+}
+.second-section__secondpic {
+    padding-left: 90px;
+  
+}
